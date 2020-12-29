@@ -1,7 +1,9 @@
 # TrinityPy
 ## Introduction
 TrinityPy is a **super simple** Python library for interacting with your [TrinityCore 3.3.5](https://github.com/TrinityCore/TrinityCore/tree/3.3.5) server. TrinityPy allows you to interact with your
-server, but without fiddling with any SQL, and instead providing clean, one-liner Python solutions for many actions.
+server, but without fiddling with any SQL, and instead providing clean, one-liner Python solutions for many actions.<br>
+
+TrinityPy is compatible with the latest TrinityCore 3.3.5 version, and works with the [new authentication system](https://github.com/TrinityCore/TrinityCore/commit/bcdbdd6f23ce65cc0e381e61d2840140dce79311).
 
 ## Examples
 ```python
