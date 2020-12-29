@@ -39,6 +39,7 @@ def test_char_table():
     print(TrinityPyDatabase.get_top_characters_by_money("Kalaumyaypoo"))
     print(TrinityPyDatabase.get_top_characters_by_total_kills("Kalaumyaypoo"))
     print(TrinityPyDatabase.get_top_characters_by_total_time("Kalaumyaypoo"))
+    print(type(TrinityPyDatabase.raw_get_all_character_info("Kalaumyaypoo")))
     print("Level " + str(TrinityPyDatabase.get_player_level("Kalaumyaymoo")))
     print(TrinityPyDatabase.get_player_race_name("Kalaumyaymoo"))
     print(TrinityPyDatabase.get_player_class_name("Kalaumyaymoo"))
