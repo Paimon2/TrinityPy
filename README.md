@@ -15,7 +15,7 @@ TrinityPyAuth.create_account("JokerMan456780", "iamjokerman2", "test1233@gmail.c
 TrinityPyAuth.change_password("JokerMan456780", "iamjokerman23")
 
 cash = TrinityPyDatabase.get_player_money("Kalaumyaymoo")
-TrinityPyDatabase.set_player_health("Kalaumyaymoo" 50)
+TrinityPyDatabase.set_player_health("Kalaumyaymoo", 50)
 ```
 The code above creates an account, changes its passwords, stores a player's money in a variable, and sets
 the player's health to 50. Pretty self-explanatory and easy, right?
